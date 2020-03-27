@@ -25,3 +25,34 @@ do {
 
 //Ejercicio: dada una cadena por ejemplo 'javascriptloops' imprimir todas las vocales primero
 // y a continuacion las consonantes.
+
+let cadena = 'javascriptloops';
+//cadena = cadena.toLocaleUpperCase();
+let k = 0;
+while (k < cadena.length) {
+    switch (cadena[k].toLocaleUpperCase()) {
+        case 'A':
+        case 'E':
+        case 'I':
+        case 'O':
+        case 'U':
+            console.log(cadena[k]);
+            break;
+        default:
+    }
+    k++;
+}
+k = 0;
+while (k < cadena.length) {
+    switch (cadena[k].toLocaleUpperCase()) {
+        case 'A':
+        case 'E':
+        case 'I':
+        case 'O':
+        case 'U':
+            break;
+        default :
+            console.log(cadena[k]);
+    }
+k++;
+}

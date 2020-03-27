@@ -15,16 +15,16 @@ console.log(x);
 // const para declarar una constante
 
 const key = 'abc123';
-//key = 'abc123';
-// para el caso de objetos
+// //key = 'abc123';
+// // para el caso de objetos
 const person = {
     name: 'wes',
     age: 28
 }  
 
 const wes = Object.freeze(person);
-// las propiedades si se pueden cambiar
-//person.dir = 'donado';
+// // las propiedades si se pueden cambiar
+person.dir = 'donado';
 wes.name = 'pablo';
 console.log(wes);
 

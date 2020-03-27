@@ -2,13 +2,13 @@
 // (==) igualdad sin verificar tipo
 
 
-console.log(1 == 1);
-console.log(1 == "1");
-console.log('1' == 1);
-console.log(0 == false);
-console.log(0 == null);
-console.log(0 == undefined);
-console.log(null == undefined);
+// console.log(1 == 1);
+// console.log(1 == "1");
+// console.log('1' == 1);
+//console.log(0 == false);
+//console.log(0 == null);
+//console.log(0 == undefined);
+//console.log(null == undefined);
 
 // (!=) desigualdad
 
@@ -36,8 +36,8 @@ function clasifyAge(age){
     }
 }
 
-// Valores falsos
-// false, undefined, null, 0 , NaN, '' (cadena vacia)
+// // Valores falsos
+// // false, undefined, null, 0 , NaN, '' (cadena vacia)
 let a = true;
 let b = false;
 let c = "";
@@ -53,7 +53,7 @@ let d = 2;
 
 d % 2 == 0 ? console.log("Es par"): console.log("es impar");
 
-// switch
+// // switch
 let key = 3;
 
 switch (key) {
