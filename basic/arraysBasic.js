@@ -81,16 +81,18 @@ console.log(arrNum);
 // // Ejercicio
 // // Dado un array de numeros enteros positivos, determinar el segundo mas grande
 
-let nums = [3,4,6,6,5,5];
+let nums = [3,4,6,8,58,5,18,58];
 let max = 0;
 let secondMax = 0;
 
 for (const num of nums) {
-    if(num > max) {
+    if(num > max){
         secondMax = max;
         max = num;
-    } else if(num > secondMax && num < max){
-        secondMax = num;
+    }
+    else if(num > secondMax & num < max) {
+        secondMax = num
     }
 }
+console.log(nums);
 console.log(secondMax);

@@ -97,3 +97,48 @@ console.log(inventors.map(inventor =>
 ));
 
 
+//ORDENAMIENTO
+let arr = [ 40, 1, 5, 200 ];
+//arr.sort();  //[ 1, 200, 40, 5 ]
+
+// arr.sort(function (a, b) {
+//   return a - b;
+// });
+
+arr.sort((a,b) => a -b);
+
+console.log((arr));
+
+
+let items = [
+  { name: 'Edward', value: 21 },
+  { name: 'Sharpe', value: 37 },
+  { name: 'And', value: 45 },
+  { name: 'The', value: -12 },
+  { name: 'Magnetic', value: 13 },
+  { name: 'Zeros', value: 37 }
+];
+
+items.sort(function (a, b) {
+  if (a.name > b.name) {
+    return 1;
+  }
+  if (a.name < b.name) {
+    return -1;
+  }
+  // a must be equal to b
+  return 0;
+});
+
+items.sort((a,b) => {
+  if (a.name > b.name) {
+    return 1;
+  }
+  if (a.name < b.name) {
+    return -1;
+  }
+  // a must be equal to b
+  return 0;
+});
+
+console.log(items);
