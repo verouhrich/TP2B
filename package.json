@@ -1,0 +1,19 @@
+{
+  "name": "betp2b",
+  "version": "1.0.0",
+  "description": "Taller de Programación 2 B",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ORT-PabloFernandez/TP2B.git"
+  },
+  "author": "Pablo Fernandez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ORT-PabloFernandez/TP2B/issues"
+  },
+  "homepage": "https://github.com/ORT-PabloFernandez/TP2B#readme"
+}
