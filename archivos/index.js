@@ -1,21 +1,27 @@
 const fs = require('fs');
 const path = './inventors.json';
 
-let datos = fs.readFileSync(path,'utf-8');
+//let datos = fs.readFileSync(path,'utf-8');
 
-const inventor = {
-    first: "Pablo",
-    last: "Fernandez",
-    year: 1976
-}
+fs.readFile(path, 'utf-8', (err, data) => {
+    console.log(data);
+});
 
-datos = JSON.parse(datos);
+console.log('Termino de leer el archivo?');
 
-datos.inventors.push(inventor);
+// const inventor = {
+//     first: "Pablo",
+//     last: "Fernandez",
+//     year: 1976
+// }
 
-fs.writeFileSync(path,JSON.stringify(datos,'','\t'), "utf-8");
+// datos = JSON.parse(datos);
 
-console.log(datos.inventors);
+// datos.inventors.push(inventor);
+
+// fs.writeFileSync(path,JSON.stringify(datos,'','\t'), "utf-8");
+
+// console.log(datos.inventors);
 
 //console.log(datos);
 
