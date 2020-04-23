@@ -17,6 +17,7 @@ console.log('Iterar con for of');
 for (const nombre of nombres) {    
     if(nombre == 'Pedro'){
         break;
+        //continue;
     }
     console.log(nombre);
 }

@@ -4,7 +4,7 @@ const path = './inventors.json';
 //let datos = fs.readFileSync(path,'utf-8');
 
 fs.readFile(path, 'utf-8', (err, data) => {
-    console.log(data);
+    console.log(data);    
 });
 
 console.log('Termino de leer el archivo?');
